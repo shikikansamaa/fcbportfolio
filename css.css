@@ -1,0 +1,38 @@
+/*
+	Syntax for CSS
+		selector {
+			property:value
+		}
+*/
+
+/*Universal Selector*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Type Selector*/
+h1, p {
+	font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+/*ID Selector*/
+#profile {
+	height: 250px;
+	width: 250px;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Cpath fill='none' stroke-width='111.3' stroke-opacity='0.3' id='a' d='M0.74-509.63l485.39 352.65l-185.4 570.61h-599.97l-185.4-570.61L0.74-509.63 M0.74-510.87l-486.56 353.51l185.85 571.99h601.42L487.3-157.36L0.74-510.87L0.74-510.87z'/%3E%3C/defs%3E%3Cg transform='scale(0.973)' style='transform-origin:center'%3E%3Cg transform='rotate(57.6 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-155.2 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%23000' href='%23a' transform='rotate(9.7 0 0) scale(1.097)'/%3E%3Cuse stroke='%23004200' href='%23a' transform='rotate(19.4 0 0) scale(1.194)'/%3E%3Cuse stroke='%23005d00' href='%23a' transform='rotate(29.1 0 0) scale(1.291)'/%3E%3Cuse stroke='%23007200' href='%23a' transform='rotate(38.8 0 0) scale(1.388)'/%3E%3Cuse stroke='%23008400' href='%23a' transform='rotate(48.5 0 0) scale(1.485)'/%3E%3Cuse stroke='%23009300' href='%23a' transform='rotate(58.2 0 0) scale(1.582)'/%3E%3Cuse stroke='%2300a100' href='%23a' transform='rotate(67.9 0 0) scale(1.679)'/%3E%3Cuse stroke='%2300ae00' href='%23a' transform='rotate(77.6 0 0) scale(1.776)'/%3E%3Cuse stroke='%2300ba00' href='%23a' transform='rotate(87.3 0 0) scale(1.873)'/%3E%3Cuse stroke='%2300c600' href='%23a' transform='rotate(97 0 0) scale(1.97)'/%3E%3Cuse stroke='%2300d000' href='%23a' transform='rotate(106.7 0 0) scale(2.067)'/%3E%3Cuse stroke='%2300da00' href='%23a' transform='rotate(116.4 0 0) scale(2.164)'/%3E%3Cuse stroke='%2300e400' href='%23a' transform='rotate(126.1 0 0) scale(2.261)'/%3E%3Cuse stroke='%2300ed00' href='%23a' transform='rotate(135.8 0 0) scale(2.358)'/%3E%3Cuse stroke='%2300f600' href='%23a' transform='rotate(145.5 0 0) scale(2.455)'/%3E%3Cuse stroke='%230F0' href='%23a' transform='rotate(155.2 0 0) scale(2.552)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
